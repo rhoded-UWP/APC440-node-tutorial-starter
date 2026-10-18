@@ -24,21 +24,34 @@ with Node.js.
 ## Get started
 
 1. On GitHub, click **Use this template** and create your own repository.
-2. Clone your new repository and open it in VS Code.
-3. In the VS Code terminal, check your Node.js version (24 or higher):
+2. Clone your new repository, then in VS Code choose **File > Open Folder**
+   and open the repository's own folder. Cloning always creates a new folder
+   named after your repository, so open that one, not the folder you cloned
+   into.
+3. Open a terminal (**Terminal > New Terminal**) and check that you are in the
+   right place. This should list `package.json` and `server.js` (on a Mac, use
+   `ls`):
+
+   ```
+   dir
+   ```
+
+   If it doesn't, run `cd` followed by your repository's name.
+
+4. Check your Node.js version (24 or higher):
 
    ```
    node -v
    ```
 
-4. Check the install. There is nothing to download, but this confirms the
+5. Check the install. There is nothing to download, but this confirms the
    lockfile is valid, the same way Render will:
 
    ```
    npm ci
    ```
 
-5. Start the server and open http://localhost:3000:
+6. Start the server and open http://localhost:3000:
 
    ```
    npm run dev
