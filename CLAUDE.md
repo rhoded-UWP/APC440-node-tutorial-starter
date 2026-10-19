@@ -36,8 +36,8 @@ keep it short, and explain your choices in plain words.
 - A path with no file extension is served as .html:
   /lessons/event-loop serves public/lessons/event-loop.html.
 - Lesson files, in lesson order (the home page already links to all six):
-  1. public/lessons/modules-and-npm.html
-  2. public/lessons/http-server.html
+  1. public/lessons/http-server.html
+  2. public/lessons/modules-and-npm.html
   3. public/lessons/event-loop.html
   4. public/lessons/async-await.html
   5. public/lessons/errors.html
